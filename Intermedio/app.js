@@ -4,5 +4,5 @@ const button = document.getElementById("button");
 button.addEventListener("click", (e) => {
   e.preventDefault();
   const nombre = input.value;
-  Swal.fire('Hola, ' + nombre + '!');
+  Swal.fire('Hola, ' + nombre + '! Soy Sebas, gracias por usar mi página.');
 });
